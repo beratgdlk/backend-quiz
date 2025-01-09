@@ -128,4 +128,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-
+For inquiries or feedback, contact:
+- **Name:** Berat G.
+- **GitHub:** [beratgdlk](https://github.com/beratgdlk)
+- **Email:** beratgdlk@gmail.com
