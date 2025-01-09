@@ -4,7 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
-
+.close-button{
+  position: fixed !important;
+  right: 5px;
+  top: 25px !important;
+  border: 2px solid white !important;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,7 +22,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+.selected-image{
+  transform: scale(10) translateX(-5px);
+}
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
