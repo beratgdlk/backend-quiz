@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Backend Quiz</h1>
+      <h1>Backend Quiz 1-46</h1>
       
       <div className="gallery">
         {cards.map((card) => (
