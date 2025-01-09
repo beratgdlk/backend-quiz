@@ -1,4 +1,4 @@
-# Backend Quiz
+# Backend Quiz - semiproject
 
 A backend project designed to create and manage quizzes. This project focuses on building a functional backend architecture for quiz-related operations.
 
