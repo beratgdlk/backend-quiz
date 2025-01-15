@@ -52,6 +52,10 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery {
@@ -59,6 +63,8 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-top: 2rem;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .card {
