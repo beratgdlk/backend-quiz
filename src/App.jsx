@@ -16,7 +16,10 @@ function App() {
   ]
   
   const questionPhotos=[
-    {id:1,photoSrc:"/src/assets/backend-about1.png"}
+    {id:1,photoSrc:"/src/assets/backend-about1.png"},
+    {id:2,photoSrc:"/src/assets/4-18.png"},
+    {id:3,photoSrc:"/src/assets/19-35.png"},
+    {id:4,photoSrc:"/src/assets/36-46.png"},
   ]
 
 
