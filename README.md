@@ -1,4 +1,4 @@
-# Backend Quiz 1-46 - live
+# Backend Quiz 1-46 - live netlify düzenlenecek
 
 A backend project designed to create and manage quizzes. This project focuses on building a functional backend architecture for quiz-related operations.
 
