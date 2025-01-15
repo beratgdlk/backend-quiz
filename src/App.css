@@ -151,3 +151,81 @@
   width: 200px;
   height: 200px;
 }
+
+/* Mobil cihazlar için gallery düzeni */
+@media screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .app {
+    padding: 1rem;
+  }
+
+  .card {
+    min-height: 250px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+
+  .card p {
+    font-size: 1.2rem;
+  }
+
+  .modal-content img {
+    max-width: 95vw;
+  }
+
+  .modal .icon-wrapper {
+    width: 150px;
+    height: 150px;
+  }
+
+  .close-button {
+    top: -30px;
+    right: 10px;
+    font-size: 1.5rem;
+  }
+}
+
+/* Çok küçük ekranlar için ek düzenlemeler */
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .card {
+    min-height: 200px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+}
+
+/* Mobil cihazlar için modal düzenlemeleri */
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal-content img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    transform: none;
+  }
+
+  /* selected-image sınıfını mobilde devre dışı bırak */
+  .selected-image {
+    transform: none;
+  }
+}

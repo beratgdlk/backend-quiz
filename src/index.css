@@ -73,3 +73,36 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Mobil cihazlar için tipografi ve düzen ayarlamaları */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  body {
+    min-width: 100%;
+    padding: 0 10px;
+  }
+
+  button {
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+  }
+}
+
+/* Çok küçük ekranlar için ek düzenlemeler */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    padding: 0.4em 0.8em;
+    font-size: 0.85em;
+  }
+}
